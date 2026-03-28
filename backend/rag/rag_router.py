@@ -1,15 +1,10 @@
 # backend/rag/rag_router.py
 """
 WHAT THIS FILE DOES:
-- Wraps all your RAG functions as HTTP API endpoints
-- Person 1 imports this router into their main FastAPI server
+- Wraps all RAG functions as HTTP API endpoints
+- other imports this router into their main FastAPI server
 - Agents call these endpoints to get law excerpts and vendor quotes
 
-Person 1 adds TWO LINES to their main.py:
-    from backend.rag.rag_router import router as rag_router
-    app.include_router(rag_router)
-
-That's it — they don't touch anything else in your folder.
 """
 
 from fastapi import APIRouter, HTTPException
