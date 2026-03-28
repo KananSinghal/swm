@@ -205,3 +205,12 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+__pycache__/
+*.py[cod]
+*.egg
+.env
+venv/
+.venv/
+.vscode/
+backend/rag/models/
